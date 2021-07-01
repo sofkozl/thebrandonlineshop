@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222222;
+    max-height: 75px;
+}
+
+.top__bar {
+    display: flex;
+}
+
+.top__left {
+    width: 111px;
+    padding-right: 859px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    padding-top: 18px;
+}
+
+.top__right {
+    width: 168px;
+    height: 37px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.top__info {
+    height: 764px;
+    background: #F1E4E6;
+    display: flex;
+}
+
+.top__photo {
+    height: 764px;
+}
+
+.top__brand {
+    display: flex;
+    padding-top: 290px;
+}
+
+.brand__element {
+    background: #F16D7F;
+    width: 12px;
+    height: 92px;
+}
+
+.top__header {
+    padding-left: 16px;
+}
+
+.top__header__brand {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.top__subheader__brand {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.pink__elements {
+    color: #F16D7F;
+}
+
+.menu {
+    margin-top: 65px;
+}
+
+.menu__card__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__photo {
+    position: absolute;
+}
+
+.menu__block {
+    position: relative;
+    padding: 105px 103px;
+    text-align: center;
+    width: 154px;
+}
+
+.menu__link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__span {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu__card__accesories {
+    position: absolute;
+    margin-top: 30px;
+}
+
+.menu__block__accesories {
+    position: relative;
+    text-align: center;
+    padding: 66px 485px;
+}
