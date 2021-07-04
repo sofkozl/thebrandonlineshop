@@ -59,6 +59,74 @@ body {
 
 .top__list {
   padding: 20px;
+  position: relative;
+}
+
+.top__list:hover .mega__box {
+  display: inline-block;
+}
+
+.mega__box {
+  padding-top: 25px;
+  padding-left: 34px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  position: absolute;
+  width: 232px;
+  height: 740px;
+  top: 67px;
+  left: 17px;
+  display: none;
+}
+
+.close__mega__box {
+  position: relative;
+  top: -16px;
+  left: 207px;
+}
+
+.mega__box__heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.menu__box {
+  margin-top: 20px;
+}
+
+.menu__box__subheading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.menu__box__link {
+  display: block;
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  padding-left: 22px;
+  margin-bottom: 12px;
+}
+
+.menu__box__link:hover {
+  color: #F16D7F;
 }
 
 .top__info {
