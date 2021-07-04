@@ -32,7 +32,6 @@ body {
 }
 
 .top__left {
-  width: 111px;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +45,6 @@ body {
 }
 
 .top__right {
-  width: 168px;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
