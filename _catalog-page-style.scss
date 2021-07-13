@@ -1,5 +1,8 @@
 .product-option {
     display: flex;
+    margin-bottom: 16px;
+    margin-top: 51px;
+    align-items: center;
 }
 
 details>summary {
@@ -12,21 +15,21 @@ details>summary::-webkit-details-marker {
 
 .filter-product {
     display: flex;
-    position: relative;
 
 
     &-details {
-        position: absolute;
+
         z-index: 1;
     }
 }
 
 .filter-product-details {
-    padding: 17px;
-    background-color: #FFFFFF;
+    padding-left: 17px;
 }
 
 .filter-product-details[open] {
+    padding: 17px;
+    background-color: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
@@ -107,6 +110,7 @@ details>summary::-webkit-details-marker {
 
 .sort-product {
     display: flex;
+    margin-left: 304px;
 }
 
 .sort-product-details {
