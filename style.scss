@@ -257,14 +257,13 @@ body {
     color: #9F9F9F;
     text-align: center;
     margin-top: 6px;
+    margin-bottom: 48px;
 }
 
 .item__card__box {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
     justify-content: space-between;
-    padding-top: 48px;
     padding-bottom: 48px;
 }
 

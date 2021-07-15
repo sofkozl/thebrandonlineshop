@@ -1,10 +1,3 @@
-.product-option {
-    display: flex;
-    margin-bottom: 16px;
-    margin-top: 51px;
-    align-items: center;
-}
-
 details>summary {
     list-style: none;
 }
@@ -13,24 +6,37 @@ details>summary::-webkit-details-marker {
     display: none;
 }
 
-.filter-product {
+.product-option {
     display: flex;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
 
-
-    &-details {
-
-        z-index: 1;
-    }
+.filter-product {
+    width: 360px;
+    position: relative;
 }
 
 .filter-product-details {
-    padding-left: 17px;
+    padding: 13px 16px 16px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.product__filter__img {
+    margin-left: 11px;
 }
 
 .filter-product-details[open] {
-    padding: 17px;
     background-color: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    position: absolute;
+}
+
+.filter-product-details[open] .product__filter__img path {
+    fill: #EF5B70;
 }
 
 .filter-product-summary-span {
@@ -45,22 +51,6 @@ details>summary::-webkit-details-marker {
 
 .filter-product-details[open] .filter-product-summary-span {
     color: #EF5B70;
-}
-
-.filter-logo {
-    margin-left: 11px;
-}
-
-.filter-product-details[open] .filter-logo {
-    display: none;
-}
-
-.filter-open {
-    display: none;
-}
-
-.filter-product-details[open] .filter-open {
-    display: inline;
 }
 
 .filter-product-summary-in {
@@ -110,7 +100,16 @@ details>summary::-webkit-details-marker {
 
 .sort-product {
     display: flex;
-    margin-left: 304px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.sort-product-box {
+    margin-right: 20px;
+}
+
+.sort-product-box:last-child {
+    margin-right: 0px;
 }
 
 .sort-product-details {
@@ -127,6 +126,17 @@ details>summary::-webkit-details-marker {
 
 .sort-product-summary-arrow {
     margin-left: 10px;
+}
+
+.sort-product-summary__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    background: #FFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 10px;
+    margin-top: 5px;
 }
 
 .centring-pagination {
