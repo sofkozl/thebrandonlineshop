@@ -873,3 +873,9 @@ body {
     width: auto;
     cursor: pointer;
 }
+
+.customization__list:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}

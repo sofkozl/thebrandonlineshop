@@ -1171,4 +1171,11 @@ body {
   width: auto;
   cursor: pointer;
 }
+
+.customization__list:focus {
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=style.css.map */
