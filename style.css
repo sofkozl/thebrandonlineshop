@@ -35,6 +35,8 @@ details > summary::-webkit-details-marker {
 
 .product__filter__img {
   margin-left: 11px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filter-product-details[open] {
@@ -42,10 +44,14 @@ details > summary::-webkit-details-marker {
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filter-product-details[open] .product__filter__img path {
   fill: #EF5B70;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filter-product-summary-span {
@@ -56,10 +62,14 @@ details > summary::-webkit-details-marker {
   line-height: 17px;
   color: #000000;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filter-product-details[open] .filter-product-summary-span {
   color: #EF5B70;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filter-product-summary-in {
@@ -185,10 +195,14 @@ details > summary::-webkit-details-marker {
 
 .pagination__link:visited {
   color: #C4C4C4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .pagination__link:hover {
   color: #EF5B70;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 body {
@@ -501,6 +515,8 @@ body {
 
 .item__card__photo {
   vertical-align: bottom;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .item__card__block {
@@ -539,6 +555,8 @@ body {
 .item__card:hover .item__card__photo {
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__box {
@@ -559,6 +577,8 @@ body {
   color: #FFFFFF;
   padding: 10px;
   border: 1px solid white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add:link,
@@ -577,12 +597,16 @@ body {
 .add:hover {
   -webkit-box-shadow: 0 0 10px white;
           box-shadow: 0 0 10px white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .item__card:hover .add__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .button {
@@ -598,11 +622,15 @@ body {
   color: #F26376;
   padding: 15px 39px;
   border: 1px solid #FF6A6A;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .featured__items__button:hover {
   background-color: #FF6A6A;
   color: #FFFFFF;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .advantages {
@@ -791,11 +819,15 @@ body {
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .subscribe__button:hover {
   background: #E05C6E;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .footer__bottom {
@@ -837,6 +869,8 @@ body {
   padding: 8px 12px;
   color: black;
   background-color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-instagram {
@@ -845,6 +879,8 @@ body {
   color: black;
   background-color: white;
   margin-left: 7px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-pinterest-p {
@@ -853,6 +889,8 @@ body {
   color: black;
   background-color: white;
   margin-left: 7px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-twitter {
@@ -861,26 +899,36 @@ body {
   color: black;
   background-color: white;
   margin-left: 7px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-facebook-f:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-instagram:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-pinterest-p:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .fa-twitter:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .catalog__top {
@@ -952,6 +1000,8 @@ body {
 
 .breadcrumb__link:hover {
   color: #F16D7F;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .breadcrumb__span {
@@ -986,18 +1036,26 @@ body {
 
 .carousel-control-prev-icon {
   background-image: url(photo/black-arrow-left.svg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .carousel-control-next-icon {
   background-image: url(photo/black-arrow-right.svg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.carousel-control-prev-icon:hover {
+.product__photo__prev:hover .carousel-control-prev-icon {
   background-image: url(photo/pink-arrow-left.svg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.carousel-control-next-icon:hover {
+.product__photo__next:hover .carousel-control-next-icon {
   background-image: url(photo/pink-arrow-right.svg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .product__photo__prev,
@@ -1049,20 +1107,28 @@ body {
   color: #F26376;
   padding: 15px 35px;
   border: 1px solid #F26376;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item__box:hover {
   color: #FFFFFF;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item:link,
 .add__item:visited {
   color: #F26376;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item:hover {
   background: #F26376;
   color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item__cart {
@@ -1071,10 +1137,14 @@ body {
 
 .add__item:hover .add__item__cart {
   display: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item__cart__hovered {
   display: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .add__item:hover .add__item__cart__hovered {
@@ -1082,6 +1152,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: 23px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .items__product__box {

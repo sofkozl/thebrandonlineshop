@@ -27,16 +27,19 @@ details>summary::-webkit-details-marker {
 
 .product__filter__img {
     margin-left: 11px;
+    transition: all 0.3s;
 }
 
 .filter-product-details[open] {
     background-color: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     position: absolute;
+    transition: all 0.3s;
 }
 
 .filter-product-details[open] .product__filter__img path {
     fill: #EF5B70;
+    transition: all 0.3s;
 }
 
 .filter-product-summary-span {
@@ -47,10 +50,12 @@ details>summary::-webkit-details-marker {
     line-height: 17px;
     color: #000000;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
 .filter-product-details[open] .filter-product-summary-span {
     color: #EF5B70;
+    transition: all 0.3s;
 }
 
 .filter-product-summary-in {
@@ -163,10 +168,12 @@ details>summary::-webkit-details-marker {
 
     &__link:visited {
         color: #C4C4C4;
+        transition: all 0.3s;
     }
 
     &__link:hover {
         color: #EF5B70;
+        transition: all 0.3s;
     }
 
 }
