@@ -1148,4 +1148,27 @@ body {
   margin: 0 auto 12px;
   width: 642px;
 }
+
+.item__product__customization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+
+.customization__list {
+  border: 0;
+  outline: 0;
+  margin-right: 23px;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  width: auto;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
