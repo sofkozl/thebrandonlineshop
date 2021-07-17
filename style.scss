@@ -7,6 +7,10 @@
 
 @import "catalog-page-style";
 
+@import "registration-page-style";
+
+@import "cart-page-style";
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -36,6 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0;
 }
 
 .top__list:first-child {
@@ -51,6 +56,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0;
 }
 
 .top__list {
