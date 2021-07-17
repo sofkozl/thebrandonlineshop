@@ -404,6 +404,12 @@ details > summary::-webkit-details-marker {
   padding-bottom: 6px;
 }
 
+.shipping-quantity-span {
+  border: 1px solid #EAEAEA;
+  padding: 0 17px;
+  margin-left: 24px;
+}
+
 .selected-product-item:last-child {
   padding-bottom: 0px;
 }
